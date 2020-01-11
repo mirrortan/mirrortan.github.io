@@ -6,7 +6,7 @@ url: https://mirrortan.com
 date_format: "ordinal"
 title: Mirror World
 subtitle: "靡不有初 鲜克有终"
-description: "Mirror's Blog"
+description: "Mirror Tan"
 keywords: Mirror Tan, mirrortan
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -66,7 +66,7 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
@@ -93,8 +93,8 @@ comments_provider: gitalk
 gitalk:
     owner: mirrortan
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 9e83ec79fb24344eb6fe
+    clientSecret: 3cab614f46f2ab5b6da778442575083275060dcb
 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
@@ -111,5 +111,5 @@ simple_jekyll_search:
 # ---------------- #
 #    Analytics     #
 # ---------------- #
-google:
-    analytics_id: UA-80669434-1
+# google:
+#     analytics_id: UA-80669434-1
