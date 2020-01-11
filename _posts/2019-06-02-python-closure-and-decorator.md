@@ -2,7 +2,7 @@
 layout: post
 title: Python 中的闭包和装饰器
 categories: Python
-keywords: [Closure, Decorator]
+tags: [Closure, Decorator]
 ---
 
 函数的装饰器可以以某种方式增强函数的功能，如在 Flask 中可使用 `@app.route('/')` 为视图函数添加路由，是一种十分强大的功能。在表现形式上，函数装饰器为一种嵌套函数，这其中会涉及到闭包的概念。而在嵌套函数之间，外部函数中的变量相对于内部函数而言为自由变量，使用时可能需要借助于 `nonlocal` 关键字进行声明。

@@ -13,12 +13,18 @@ layout: default
             <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
           </span>
           {% endif %}
-          {% for cat in page.categories %}
           <span class="meta-info">
             <span class="octicon octicon-file-directory"></span>
-            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+            {% for cat in page.categories %}
+              <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>{% if forloop.last != true %}, {% endif %}
+            {% endfor %}
           </span>
-          {% endfor %}
+          <span class="meta-info">
+            <span class="octicon octicon-tag"></span>
+            {% for tag in page.tags %}
+              <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+            {% endfor %}
+          </span>
         </div>
       </div>
     </div>

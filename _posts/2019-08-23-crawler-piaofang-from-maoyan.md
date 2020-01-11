@@ -2,7 +2,7 @@
 layout: post
 title: 猫眼票房大屏投影及常规版数据爬取
 categories: [Data-Crawler, Python]
-keywords: [requests, fontTools, base64]
+tags: [requests, fontTools, base64]
 ---
 
 [猫眼票房](https://piaofang.maoyan.com/) 是查看国内影院上线电影票房的一个站点，包括 [大屏投影](https://piaofang.maoyan.com/dashboard) 和 [常规版](https://piaofang.maoyan.com/?ver=normal) 两个版面。本文尝试对这两个版面的数据进行爬取。

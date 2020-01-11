@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Last digit of a huge number
-categories: [Algorithm, Python]
-keywords:
+categories: [Pratice, Python]
+tags: Algorithm
 ---
 
 这是我在 [Codewars](https://www.codewars.com/) 中遇到的一个比较有意思的题目：求一个列表中元素累计乘方的最后一位数。

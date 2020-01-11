@@ -47,12 +47,18 @@ comments: false
                         <span class="meta-info">
                           <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
                         </span>
-                        {% for cat in post.categories %}
                         <span class="meta-info">
                           <span class="octicon octicon-file-directory"></span>
-                          <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+                          {% for cat in post.categories %}
+                            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>{% if forloop.last != true %}, {% endif %}
+                          {% endfor %}
                         </span>
-                        {% endfor %}
+                        <span class="meta-info">
+                          <span class="octicon octicon-tag"></span>
+                          {% for tag in post.tags %}
+                            <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+                          {% endfor %}
+                        </span>
                     </p>
                 </li>
                 {% endfor %}
@@ -60,6 +66,8 @@ comments: false
         </div>
         <div class="column one-third">
             {% include sidebar-search.html %}
+            {% include sidebar-categories-nav.html %}
+            {% include sidebar-tags-nav.html %}
             <!-- {% include sidebar-qrcode.html %} -->
             <!-- {% include sidebar-popular-repo.html %} -->
         </div>

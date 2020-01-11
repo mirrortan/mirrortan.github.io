@@ -14,7 +14,8 @@
   {% for doc in site.documents %}
     {
       "title"    : "{{ doc.title | escape }}",
-      "category" : "{{ doc.categories[0] | xml_escape }}",
+      "category" : "{{ doc.categories | join: ', ' }}",
+      "tags"     : "{{ doc.tags | join: ', ' }}",
       {% if site.simple_jekyll_search.fulltext %}"content": {{ doc.content | markdownify | strip_html | replace:'"','' | jsonify | replace:'\n',' ' | replace:'   ',' ' | replace:'  ',' ' | replace:'\',' ' }},{% endif %}
       "url"      : "{{ site.url }}{{ doc.url }}"
     } {% unless forloop.last %},{% endunless %}

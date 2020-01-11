@@ -32,6 +32,10 @@ navs:
   -
     href: /categories/
     label: 分类
+  
+  - 
+    href: /tags/
+    label: 标签
 
 #   -
 #     href: /archives/
@@ -53,13 +57,6 @@ navs:
 #       RSS        #
 # ---------------- #
 subscribe_rss: /feed.xml
-
-images:
-  - 
-    scope:
-      path: "assets/images"
-    values:
-      image: true
 
 # ---------------- #
 #      Jekyll      #

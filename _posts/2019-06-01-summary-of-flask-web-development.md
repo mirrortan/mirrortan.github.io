@@ -2,7 +2,7 @@
 layout: post
 title: 关于 Flask Web 开发的个人总结
 categories: Python
-keywords: [Flask, Web-Development]
+tags: [Flask, Web-Development]
 ---
 
 在阅读完 Miguel Grinberg 的 *Flask Web Development: Developing Web Application with Python* 并按照书中的案例进行了一遍实操，对 Miguel Grinberg 的 **flasky** 以及 Grey Li 的 **bluelog** 简单改写后做了一个[自己的 Flask 网站](https://www.mirrortan.com)，现对 Flask Web 做一个简单的个人小结。
