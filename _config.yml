@@ -37,9 +37,9 @@ navs:
 #     href: /archives/
 #     label: 归档
 
-  -
-    href: /wiki/
-    label: 维基
+  # -
+  #   href: /wiki/
+  #   label: 维基
 
   -
     href: /links/
@@ -53,6 +53,13 @@ navs:
 #       RSS        #
 # ---------------- #
 subscribe_rss: /feed.xml
+
+images:
+  - 
+    scope:
+      path: "assets/images"
+    values:
+      image: true
 
 # ---------------- #
 #      Jekyll      #
