@@ -2,7 +2,7 @@
 layout: post
 title: 利用 Excel 制作词云
 categories: Data-Visualization
-tags: [Excel, Word Cloud]
+tags: [Excel, Word-Cloud]
 ---
 
 通过将出现频率高的「关键词」即高频关键词突出呈现，过滤掉大量出现频率低或无实意的词语，可以很直观的将主旨呈现给读者。既可以通过对文本进行分词后统计词频，也可以直接使用一些规整的词直接统计 ~ 如使用论文关键词做词云。此处使用 Excel 对中国知网中「熊猫」相关主题近十年来的论文关键词进行统计，再使用 [Word Art](https://wordart.com/) 进行词云制作。
