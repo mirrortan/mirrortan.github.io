@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于 Jupyter 的使用说明
-categories: python
+categories: Python
 description: 关于 Jupyter 的使用说明 
 tags: jupyter
 ---

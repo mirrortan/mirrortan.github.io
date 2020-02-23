@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于 IPython 使用的个人小结
-categories: python
+categories: Python
 description: 关于 IPython 使用的个人小结
 tags: IPython
 ---
