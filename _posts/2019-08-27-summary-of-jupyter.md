@@ -3,7 +3,7 @@ layout: post
 title: 关于 Jupyter 的使用说明
 categories: python
 description: 关于 Jupyter 的使用说明 
-keywords: jupyter
+tags: jupyter
 ---
 
 Jupyter 是一项基于 IPython 的开源工具，它支持各种编程语言，因其在交互式工作中的良好表现而被广泛应用于「数据科学」及「科学计算」领域。

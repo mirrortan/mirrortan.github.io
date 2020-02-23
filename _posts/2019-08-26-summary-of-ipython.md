@@ -3,7 +3,7 @@ layout: post
 title: 关于 IPython 使用的个人小结
 categories: python
 description: 关于 IPython 使用的个人小结
-keywords: IPython
+tags: IPython
 ---
 
 IPython 是 Python shell 的增强版，它鼓励一种「执行-探索」式(execute explore) 的工作模式，而不是其他许多语言那种「编辑-编译-运行」(edit-compile-run) 的传统工作模式。而且，它与操作系统 shell 和文件系统之间也有非常紧密的集成，因此，在数据分析工作中得到广泛应用。
