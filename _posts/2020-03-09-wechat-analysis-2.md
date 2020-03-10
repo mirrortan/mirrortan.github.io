@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 微信群里的二三事（上）
+title: 微信群里的二三事（下）
 categories: [Python, Data-Analysis]
-description: 微信群聊天记录分析上
-tags: pandas, matplotlib
+description: 微信群聊天记录分析下
+tags: [pandas, matplotlib, wordcloud, jieba]
 ---
 
 前期，我们将微信聊天记录导出后，并选择微信群聊天记录作为分析对象，进行了一些预处理工作后，从发言频次和发言类型进行了简单的分析。本次，我们从微信群聊的时间偏好进行分析，并选定记录最多的群聊分析该群中最受关注的人物，最后，对文字消息进行分词并绘制词云。

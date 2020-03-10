@@ -3,7 +3,7 @@ layout: post
 title: 微信群里的二三事（上）
 categories: [Python, Data-Analysis]
 description: 微信群聊天记录分析上
-tags: pandas, matplotlib
+tags: [pandas, matplotlib]
 ---
 
 微信基本上是使用最频繁的一款软件了，因为工作、学习、兴趣爱好等各种各样的原因，加入了很多很多群。今天，就利用 Python 对加入的微信群聊天记录进行一些简单的分析。
